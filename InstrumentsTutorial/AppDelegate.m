@@ -15,6 +15,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    
+    
+    
+    
+    
+    
     HomeViewController *viewController = [[HomeViewController alloc] init];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
     
